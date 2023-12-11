@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:id="@+id/A1"
+            android:icon="@android:drawable/ic_media_play"
+            app:showAsAction="ifRoom"
+            android:title="Activity 1" />
+        <item android:id="@+id/A2"
+            android:title="Activity 2" />
+        <item android:id="@+id/A3"
+            android:title="Activity 3" />
+    </group>
+</menu>
